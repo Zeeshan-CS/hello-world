@@ -2,3 +2,8 @@ echo "# hello-world" >> README.md
 git init
 git add README.md
 git add .
+git branch -M master
+git config --global user.name "FIRST_NAME LAST_NAME"
+git config --global user.email "MY_NAME@example.com"
+git remote add origin https://github.com/Zeeshan-CS/hello-world.git
+git push -u origin master
